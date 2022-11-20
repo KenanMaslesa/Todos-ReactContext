@@ -32,7 +32,7 @@ export function TodoProvider({ children }: any) {
 
   const updateTodo = (todoId: number): void => {
     const newTodos = [...todos];
-    newTodos.map((item) => {
+    newTodos.forEach((item) => {
       if (item.id === todoId) {
         item.completed = !item.completed;
       }
