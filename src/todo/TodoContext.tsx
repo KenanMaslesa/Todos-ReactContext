@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import { Todo } from "./models";
 
 export type TodosContextState = {
